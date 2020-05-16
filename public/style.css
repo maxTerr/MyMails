@@ -14,12 +14,13 @@ body {
 .profil {
     display:flex;  
     width: 50%;
-    background-color: #FFFFFF;
+    background-color: #145DBF;
     border-top : 1px solid #DADADA;
     border-right : 1px solid #DADADA;
     border-left : 1px solid #DADADA;
     justify-content: center;   
-    align-items: center;    
+    align-items: center;
+    color:white    
 }
 .profil:last-child {
     border-bottom : 1px solid #DADADA;
