@@ -1,0 +1,46 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F6FA;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.full {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profil {
+    display:flex;  
+    width: 50%;
+    background-color: #FFFFFF;
+    border-top : 1px solid #DADADA;
+    border-right : 1px solid #DADADA;
+    border-left : 1px solid #DADADA;
+    justify-content: center;   
+    align-items: center;    
+}
+.profil:last-child {
+    border-bottom : 1px solid #DADADA;
+}
+.avatar {
+    border-radius: 50%;
+    width: 60px;
+    height:60px;
+    margin: 10px;
+}
+.trash {
+    width: 15px;
+    height:15px;
+    margin: 10px;
+}
+h6 {
+    margin-top : 10px;
+    margin-bottom : 10px;
+    font-size : 14px;
+}
+p {
+    margin-top : 0px;
+    font-size : 14px;
+}
