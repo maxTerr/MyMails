@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #F5F6FA;
+    background-color: #145DBF;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@ body {
 .profil {
     display:flex;  
     width: 50%;
-    background-color: #145DBF;
+    background-color: rgb(12, 60, 122);
     border-top : 1px solid #DADADA;
     border-right : 1px solid #DADADA;
     border-left : 1px solid #DADADA;
