@@ -1,6 +1,6 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #145DBF;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    background-color: #DBEDFF;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -8,13 +8,13 @@ body {
 h2 {
     display:flex;  
     width: 50%;
-    background-color: rgb(12, 60, 122);
+    background-color: #BECFDE;
     border-top : 1px solid #DADADA;
     border-right : 1px solid #DADADA;
     border-left : 1px solid #DADADA;
     justify-content: center;   
     align-items: center;
-    color:white;
+    color:#555A5F;
     border-bottom : 1px solid #DADADA;
 }
 .full {
@@ -26,13 +26,13 @@ h2 {
 .profil {
     display:flex;  
     width: 50%;
-    background-color: rgb(12, 60, 122);
-    border-top : 1px solid #DADADA;
-    border-right : 1px solid #DADADA;
-    border-left : 1px solid #DADADA;
+    background-color: #BECFDE;
+    border-top : 1px solid #FFFFFF;
+    border-right : 1px solid #FFFFFF;
+    border-left : 1px solid #FFFFFF;
     justify-content: center;   
     align-items: center;
-    color:white    
+    color:#555A5F    
 }
 .profil:last-child {
     border-bottom : 1px solid #DADADA;
@@ -52,15 +52,26 @@ h6 {
     margin-top : 10px;
     margin-bottom : 10px;
     font-size : 14px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Tenali Ramakrishna', sans-serif;
     text-transform : uppercase;
 }
 p {
     margin-top : 0px;
     font-size : 14px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Tenali Ramakrishna', sans-serif;
 }
 .wording {
     text-align: center;
+}
+#newmessage {
+    width : 75%;
+    margin : 10px;
+}
+#btn {
+    color : #563D7C;
+    border-color: #563D7C;
+    background-color:#BECFDE;
+    border : 1px solid;
+    border-radius: 10%;
 }
 
