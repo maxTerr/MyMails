@@ -5,6 +5,18 @@ body {
     display: flex;
     justify-content: center;
 }
+h2 {
+    display:flex;  
+    width: 50%;
+    background-color: rgb(12, 60, 122);
+    border-top : 1px solid #DADADA;
+    border-right : 1px solid #DADADA;
+    border-left : 1px solid #DADADA;
+    justify-content: center;   
+    align-items: center;
+    color:white;
+    border-bottom : 1px solid #DADADA;
+}
 .full {
     display:flex;
     flex-direction: column;
